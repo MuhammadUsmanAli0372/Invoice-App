@@ -5,10 +5,18 @@
         "build": "vite build"
     },
     "devDependencies": {
+        "@vitejs/plugin-vue": "^3.0.3",
         "axios": "^0.27",
-        "laravel-vite-plugin": "^0.5.0",
+        "laravel-vite-plugin": "^0.5.4",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
-        "vite": "^3.0.0"
+        "vite": "^3.0.9"
+    },
+    "dependencies": {
+        "express": "^4.18.1",
+        "jade": "^0.29.0",
+        "pug": "^3.0.2",
+        "vue-loader": "^17.0.0",
+        "vue-router": "^4.0.13"
     }
 }
